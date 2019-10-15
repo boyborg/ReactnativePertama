@@ -1,6 +1,7 @@
-import React from 'react';
+import React from 'react'; //contoh state
 import{
-    View,    
+    View,
+    TouchableOpacity,    //agar text dapat disentuh
     Text
     }from 'react-native';
 
@@ -19,7 +20,9 @@ import{
         render(){ //3 read component state menggukan this.state.<nama state>
             return(
                 <View>
+                    <TouchableOpacity> 
                     <Text>{this.state.name}</Text>
+                    </TouchableOpacity>
                 </View>
             );
         }

@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'; //contoh komponen biasa
 import{
     View,    
     Text
