@@ -8,6 +8,7 @@ import{
 
     import ProEx from './Propex';
     import Pros from './Ruang';
+    import AppStateless from './AppStateless';
 
 class App extends React.Component{
 
@@ -29,6 +30,7 @@ class App extends React.Component{
                 <Pros namaRuang="Persegi Panjang" rumusLuas="p x l" rumusKeliling="2 x ( p + l )"/>
                 <Pros namaRuang="Segi Delapan" rumusLuas="(2+2√2)s²" rumusKeliling="8s"/>
                 <Pros namaRuang="Segi Enam" rumusLuas="(3√3 s2)/2" rumusKeliling="6s"/>
+                <AppStateless nama="Randy" alamat="Bogor" email="ranforit@yahoo.com" telp="083232372"/>
                                 
             </View>
 
